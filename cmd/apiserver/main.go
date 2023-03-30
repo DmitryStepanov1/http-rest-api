@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 
 	"github.com/BurntSushi/toml"
@@ -18,6 +19,7 @@ func init() {
 
 func main() {
 	flag.Parse()
+	fmt.Println("qd")
 
 	config := apiserver.NewConfig()
 	_, err := toml.DecodeFile(configPath, config)
