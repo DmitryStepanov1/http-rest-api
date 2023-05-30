@@ -20,7 +20,7 @@ import (
 )
 
 const (
-	sessionName        = "gopherschool"
+	sessionName        = "DmitryStepanov1"
 	ctxKeyUser  ctxKey = iota
 	ctxKeyRequestID
 )
