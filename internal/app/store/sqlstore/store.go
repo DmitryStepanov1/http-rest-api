@@ -3,7 +3,7 @@ package sqlstore
 import (
 	"database/sql"
 
-	"github.com/gopherschool/http-rest-api/internal/app/store"
+	"github.com/DmitryStepanov1/http-rest-api.git/internal/app/store"
 )
 
 // Store ...
