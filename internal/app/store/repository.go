@@ -2,7 +2,7 @@ package store
 
 import "github.com/DmitryStepanov1/http-rest-api.git/internal/app/model"
 
-// UserRepository ...
+// UserRepository repository
 type UserRepository interface {
 	Create(*model.User) error
 	Find(int) (*model.User, error)
