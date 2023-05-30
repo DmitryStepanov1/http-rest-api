@@ -13,7 +13,6 @@ func TestUser_Validate(t *testing.T) {
 		u       func() *model.User
 		isValid bool
 	}{
-
 		{
 			name: "valid",
 			u: func() *model.User {
